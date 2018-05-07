@@ -374,7 +374,7 @@ nav ul li a {
 }
 
 .services-carousel .owl-dots {
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -425,7 +425,7 @@ nav ul li a {
 
 #portfolio {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 #portfolio .portfolio-list {
@@ -626,8 +626,8 @@ nav ul li a {
 
 #footer .socials-media ul li {
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 #footer .socials-media ul li a {
@@ -965,7 +965,7 @@ nav ul li a {
 .chart span strong {
   display: block;
   font-family: "Space Mono", Arial, serif;
-  margin-top: 7px;
+  margin-top: 9px;
 }
 .chart canvas {
   position: absolute;
