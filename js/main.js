@@ -150,7 +150,35 @@ $(document).ready(function() {
     });
   };
 
+  // ========================================================================= //
+  //  pieChart
+  // ========================================================================= //
+
+  var pieChart = function() {
+    $('.chart').easyPieChart({
+      scaleColor: false,
+      lineWidth: 4,
+      lineCap: 'butt',
+      barColor: '#FF9000',
+      trackColor: "#f5f5f5",
+      size: 160,
+      animate: 1000
+    });
+  };
+
+  // ========================================================================= //
+  //  swipe next btn 5초마다 클릭.
+  // ========================================================================= //
+
+  var circle_chart_event = function() {
+    var c = document.getElementById('cir-next-btn');
+    c.click();
+  };
 
   // Call the functions
   magnifPopup();
+  pieChart();
+  setInterval(function() {
+    document.getElementById('cir-next-btn').click();
+  }, 4000);
 });

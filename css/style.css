@@ -675,6 +675,11 @@ nav ul li a {
   opacity: 0;
 }
 
+.black-bold {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Jerome's Custom - timeline
 /*-----------------------------------------------------------------------------------*/
@@ -940,13 +945,14 @@ nav ul li a {
 .progress-bar.progress-bar-5 {
   background-color: #27ae60 !important;
 }
-/*
+
 .chart {
   width: 160px;
   height: 160px;
   margin: 0 auto 40px auto;
   position: relative;
   text-align: center;
+  font-family: "Space Mono", Arial, serif;
 }
 .chart span {
   position: absolute;
@@ -954,16 +960,19 @@ nav ul li a {
   left: 0;
   margin-top: -30px;
   width: 100%;
+  font-family: "Space Mono", Arial, serif;
 }
 .chart span strong {
   display: block;
+  font-family: "Space Mono", Arial, serif;
+  margin-top: 7px;
 }
 .chart canvas {
   position: absolute;
   left: 0;
   top: 0;
 }
-*/
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Jerome's Custom - work desc (portfolio)

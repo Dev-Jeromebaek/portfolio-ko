@@ -3834,7 +3834,35 @@ window.onload = function() {
     });
   
   swiper.on('transitionEnd', function() {
-//    console.log(swiper.activeIndex, swiper.isBeginning, swiper.isEnd);
+   // console.log(swiper.activeIndex, swiper.isBeginning, swiper.isEnd);
+
+   // ========================================================================= //
+  //  Jerome Custom - 페이징 처음이나 끝으로 가면 이상해ㅜㅜ 
+  // ========================================================================= //
+   // console.log(document.getElementsByClassName('swiper-pagination-bullet'));
+   
+   function pieChart() {
+    $('.chart').easyPieChart({
+      scaleColor: false,
+      lineWidth: 4,
+      lineCap: 'butt',
+      barColor: '#FF9000',
+      trackColor: "#f5f5f5",
+      size: 160,
+      animate: 1000
+    });
+   }
+   // console.log(document.getElementsByClassName('swiper-pagination-bullet').length);
+   // console.log(swiper.activeIndex);
+   var paging_len = document.getElementsByClassName('swiper-pagination-bullet').length;
+   if(swiper.activeIndex === 0) {
+    // console.log(document.getElementsByClassName('swiper-pagination-bullet')[paging_len-1]);
+    // document.getElementsByClassName('swiper-pagination-bullet')[paging_len-1].click();
+    pieChart();
+   } else if(swiper.activeIndex > paging_len) {
+    // document.getElementsByClassName('swiper-pagination-bullet')[0].click();
+    pieChart();
+   }
   });
 
 };
