@@ -684,6 +684,16 @@ nav ul li a {
   color: #FF9000 !important;
 }
 
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(images/loader.gif) center no-repeat #fff;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Jerome's Custom - timeline
 /*-----------------------------------------------------------------------------------*/
