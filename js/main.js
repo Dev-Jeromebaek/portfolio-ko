@@ -175,9 +175,18 @@ $(document).ready(function() {
     c.click();
   };
 
+  // ========================================================================= //
+  //  로딩바
+  // ========================================================================= //
+
+  var loaderPage = function() {
+    $(".page_loader").fadeOut("slow");
+  };
+
   // Call the functions
   magnifPopup();
   pieChart();
+  loaderPage();
   setInterval(function() {
     document.getElementById('cir-next-btn').click();
   }, 4000);
