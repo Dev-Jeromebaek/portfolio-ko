@@ -183,10 +183,34 @@ $(document).ready(function() {
     $(".page_loader").fadeOut("slow");
   };
 
+  // ========================================================================= //
+  //  언어설정
+  // ========================================================================= //
+
+  var locale_check = function() {
+    $("#locale_check").on("change", function() {
+      var language = $("#locale_check").val();
+      console.log(language);
+      if(language === "ko") {
+        var ko_sel_check = $("#locale_check").children()[0].getAttribute("selected");
+        if(ko_sel_check === null) {
+          location.href="http://jeromebaek-portfolio-ko.ml";
+        }
+      } else {
+        var en_sel_check = $("#locale_check").children()[1].getAttribute("selected");
+        console.log(en_sel_check);
+        if(en_sel_check === null) {
+          location.href="http://jeromebaek-portfolio-en.ml";
+        }
+      }
+    });
+  };
+
   // Call the functions
   magnifPopup();
   pieChart();
   loaderPage();
+  locale_check();
   setInterval(function() {
     document.getElementById('cir-next-btn').click();
   }, 4000);
