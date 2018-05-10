@@ -46,6 +46,8 @@
     height: 10%;
     right: 200px;
     padding: 0;
+    background-color: #ffffff !important;
+    color: #000000 !important;
   }
   .responsive {
     float: right;
@@ -125,6 +127,8 @@
     height: 10%;
     right: 170px;
     padding: 0;
+    background-color: #ffffff !important;
+    color: #000000 !important;
   }
   .responsive {
     float: right;
@@ -205,6 +209,8 @@
     height: 10%;
     right: 100px;
     padding: 0;
+    background-color: #ffffff !important;
+    color: #000000 !important;
   }
 
   .responsive {
@@ -286,6 +292,8 @@
     height: 10%;
     right: 50px;
     padding: 0;
+    background-color: #ffffff !important;
+    color: #000000 !important;
   }
   .responsive {
     float: right;
