@@ -696,7 +696,8 @@ nav ul li a {
 
 nav ul li select {
   padding: 2px 0 0 0;
-  position: relative;
+  position: absolute;
+  top: 33px;
   display: block;
   font-size: 12px;
   background-color: #ffffff;
