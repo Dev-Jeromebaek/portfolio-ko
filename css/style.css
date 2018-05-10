@@ -684,7 +684,7 @@ nav ul li a {
   color: #FF9000 !important;
 }
 
-.loader {
+.page_loader {
   position: fixed;
   left: 0px;
   top: 0px;
