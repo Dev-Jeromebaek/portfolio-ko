@@ -119,6 +119,22 @@ p {
   color: #fff;
 }
 
+.center {
+  margin: 0 auto 30px;
+}
+
+.bg-main {
+  background-color: #FF9000 !important;
+}
+
+a.bg-main:hover, a.bg-main:focus,
+button.bg-main:hover,
+button.bg-main:focus {
+  background-color: #FFCE8E !important;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
 .padDiv {
   padding: 30px 20px;
 }
@@ -247,6 +263,10 @@ nav ul li a {
   background: url("../images/home-bg.jpg") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 

@@ -206,11 +206,21 @@ $(document).ready(function() {
     });
   };
 
+  // ========================================================================= //
+  //  이력서 더보기 버튼 이벤트
+  // ========================================================================= //
+  var moreResume = function() {
+     $("#moreResume").on("click", function() {
+        location.href="blog-grid.html";
+    });
+  }
+
   // Call the functions
   magnifPopup();
   pieChart();
   loaderPage();
   locale_check();
+  moreResume();
   setInterval(function() {
     document.getElementById('cir-next-btn').click();
   }, 4000);
