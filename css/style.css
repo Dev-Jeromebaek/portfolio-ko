@@ -1203,6 +1203,7 @@ nav ul li select {
 
 .work-6:hover .desc-6 {
   opacity: 1;
+  border: 2px solid #FF9000;
 }
 .work-6:hover .desc-6 h2 {
   -webkit-transform: translate3d(0, 0, 0);
