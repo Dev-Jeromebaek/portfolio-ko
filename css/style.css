@@ -341,7 +341,7 @@ nav ul li a {
 }
 
 #about .about-descr .separator {
-  max-width: 90%;
+  max-width: 100%;
   margin-bottom: 0;
   text-align: left;
   font-weight: 400;
