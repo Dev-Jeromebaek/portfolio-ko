@@ -211,7 +211,7 @@ $(document).ready(function() {
   // ========================================================================= //
   var moreResume = function() {
      $("#moreResume").on("click", function() {
-        location.href="blog-grid.html";
+        location.href="portfolio/resume/index.html";
     });
   }
 
