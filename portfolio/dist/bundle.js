@@ -9400,7 +9400,7 @@ module.exports = {
       }
     },
     'IT Bank (아이티뱅크)': {
-      'date': '2015.09 - 2016.03 / 2015.09 - 2017.03',
+      'date': '2015.09 - 2016.05 / 2016.09 - 2017.04',
       'info': '개발자 준비 교육 아카데미.',
       'service': ['Project<br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj01_dasam.html">DASAM: 소셜커머스<a/>'],
       'project': {
