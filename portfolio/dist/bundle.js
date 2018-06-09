@@ -9320,7 +9320,19 @@ module.exports = {
     // }],
 
     '개인 활동': [{
-      'date': '2017.11',
+      'date': '2018.06',
+      'title': 'Good Company Series 01 Kakao Bank',
+      'contents': ['Good Company X Kakao Bank', '- Intro. 카카오뱅크 Booth Zone', '- 카카오뱅크에서 개발자로 일한다는 것', '- 카카오뱅크에서 기획자로 일한다는 것', '- 어떤 사람들이 어떻게 일하고 있는가?']
+    }, {
+      'date': '2018.06',
+      'title': '클라우드 온보드 서울',
+      'contents': ['Google Cloud', '- 개별 세션별 기술 시연', '- Google App Engine, Datastore, Storage, Container Engine, Computer Engine 및 네트워크, 빅데이터, 기계 학습', '- 기술교육']
+    }, {
+      'date': '2018.06',
+      'title': '클라우드 온보드 서울',
+      'contents': ['Google Cloud', '- 개별 세션별 기술 시연', '- Google App Engine, Datastore, Storage, Container Engine, Computer Engine 및 네트워크, 빅데이터, 기계 학습', '- 기술교육']
+    }, {
+      'date': '2018.06',
       'title': 'Designer & Developer',
       'contents': ['GDG Campus Korea [meetup]', '- 디자이너 & 개발자 협업', '- 실무진 이야기', '- 네트워킹']
     }, {
@@ -9370,7 +9382,7 @@ module.exports = {
     'Coreriver (코아리버)': {
       'date': '2017.05 - 2018.06',
       'info': '코아리버는 IoT, 영상처리, 쇼핑몰 관련 웹/앱 개발의 선도적인 기업입니다. 안드로이드, iOS, 하이브리드 웹/앱 개발 및 디자인까지 토탈 솔루션을 제공합니다.',
-      'service': ['Web - 회사 소개 사이트<br /> - <a href="http://www.coreriver.com">http://www.coreriver.com</a> <br /><br />', 'Portfolio<br /> - <a href="http://www.coreriver.com/technology.asp#portfolio">http://www.coreriver.com/technology.asp#portfolio</a> <br /><br />', 'Project<br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj04_obelab.html">OBELAB(Nirsit): 생체신호 관리 프로그램<a/><br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj03_bmap.html">바나나맵: 실시간 상점 정보 어플리케이션<a/><br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj02_vpet.html">바닐라펫: 반려동물 분양 정보 어플리케이션<a/>'],
+      'service': ['Web - 회사 소개 사이트<br /> - <a href="http://www.coreriver.com">http://www.coreriver.com</a> <br /><br />', 'Portfolio<br /> - <a href="http://www.coreriver.com/technology.asp#portfolio">http://www.coreriver.com/technology.asp#portfolio</a> <br /><br />', 'Project<br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj04_obelab.html">OBELAB ( 생체신호 관리 프로그램 ) _ http://jeromebaek-portfolio-ko.ml/portfolio/proj04_obelab.html<a/><br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj03_bmap.html">바나나맵 ( 실시간 상점 정보 어플리케이션 ) _ http://jeromebaek-portfolio-ko.ml/portfolio/proj03_bmap.html<a/><br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj02_vpet.html">바닐라펫 ( 반려동물 분양 정보 어플리케이션 ) _ http://jeromebaek-portfolio-ko.ml/portfolio/proj02_vpet.html<a/>'],
       'project': {
         'project': [{
           'date': '2018.01 - 2018.04',
@@ -9402,7 +9414,7 @@ module.exports = {
     'IT Bank (아이티뱅크)': {
       'date': '2015.09 - 2016.05 / 2016.09 - 2017.04',
       'info': '개발자 준비 교육 아카데미.',
-      'service': ['Project<br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj01_dasam.html">DASAM: 소셜커머스<a/>'],
+      'service': ['Project<br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj01_dasam.html">DASAM ( 소셜커머스 ) _ http://jeromebaek-portfolio-ko.ml/portfolio/proj01_dasam.html<a/>'],
       'project': {
         'project': [{
           'date': '2017.03 - 2017.03',
