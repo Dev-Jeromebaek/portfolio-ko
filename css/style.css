@@ -1175,7 +1175,8 @@ nav ul li select {
 .work-6 .desc-6 span {
   display: block;
   color: #000000;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 600;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, 15px, 0);
