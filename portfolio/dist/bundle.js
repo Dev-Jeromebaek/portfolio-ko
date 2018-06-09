@@ -9275,17 +9275,16 @@ module.exports = {
     저는 반응형 웹, 사용자 중심의 웹, 그리고 모두를 단번에 집중 시킬 수 있는 매력적인 사용자 중심의 웹 사이트 제작에 관심이 많습니다.<br />
     주로 사용하는 언어는 JAVA, JSP, HTML, CSS, JavaScript 이며 그중 가장 자신있는 개발 언어는 'JAVA'입니다.<br /><br />
     현재까지 'JAVA', 'JSP', 'SPRING'까지,'Back-end'적인 Java 기반의 웹 기술을 많이 활용해 왔고, <br />
-    최근에는 'JavaScript', 'jQuery', 'React'등 'Front-end'에 관심이 많아 여러가지 개인 프로젝트도 만들어보며 다양한 사용자와 소통할 수 있는, 웹사이트를 개발할 수 있도록 노력하고 있습니다.
+    최근에는 'JavaScript', 'jQuery', 'React'등 'Front-end'에 관심이 많아 여러가지 개인 프로젝트도 만들어보며 다양한 사용자와 소통할 수 있는, 웹사이트를 개발할 수 있도록 노력하고 있고, React에 관심이 가장 많기에 현재 공유중인 Blog에 React 관련 테스트 내용을 정리하고 있습니다.<br />
     앱 위주 제작을 맡아 진행하는 최근 회사에서 다양한 웹페이지뿐만 아니라 Hybrid App을 제작함으로써 디바이스별 이슈 및 반응형 처리에 대하여 많이 고민하여 배우고 적용시키고 있습니다.<br /><br />
-    Google Map, Distance Matrix, DatePicker, Crop 등 다양한 Api를 Custom하여 적용시킴으로써 단순히 가져다 쓰는 것만이 아닌 입맛게 맞게 Custom하는 능력 또한 기르고 있고,<br />
-    디자이너가 없는 상황에 개발을 위해 PhotoShop을 조금은 다룰 수 있도록 능력을 키웠으며, 각종 커뮤니티를 통해 icon, template 등을 수집하기도 합니다.<br />
+    Google Map, Distance Matrix, DatePicker, Crop 등 다양한 Api를 Custom하여 적용시킴으로써 단순히 가져다 쓰는 것만이 아닌 입맛게 맞게 Custom하는 능력 또한 기르고 있고 디자이너가 없는 상황에 개발을 위해 PhotoShop을 조금은 다룰 수 있도록 능력을 키웠으며, 각종 커뮤니티를 통해 icon, template 등을 수집하기도 합니다.<br />
     그 외 blog, github, pinterest 를 통해 다양한 개발 지식과 정보를 공유, 관리하고있습니다.<br />
     `,
 
   contents: {
     'Skill Set': [{
-      'date': '',
-      'title': '(상급: 3, 중급: 2, 초급: 1)',
+      'date': '(상급: 3, 중급: 2, 초급: 1)',
+      'title': '',
       'contents': ['']
     }, {
       'date': 'Language',
@@ -9326,27 +9325,27 @@ module.exports = {
     }, {
       'date': '2018.06',
       'title': 'Google Cloud OnBoard - Seoul',
-      'contents': ['Google Cloud [education]', '- 세션별 기술 시연', '- Google App Engine, Datastore, Storage, Container Engine, Computer Engine 및 네트워크, 빅데이터, 기계 학습', '- 기술교육']
+      'contents': ['Google Cloud [education]', '- 세션별 기술 시연', '- Google App Engine, Datastore, Storage, Container Engine, Computer Engine 및 네트워크, 빅데이터, 기계 학습', '- 기술교육.']
     }, {
       'date': '2018.06',
       'title': 'Designer & Developer',
-      'contents': ['GDG Campus Korea [meetup]', '- 디자이너 & 개발자 협업', '- 실무진 이야기', '- 네트워킹']
+      'contents': ['GDG Campus Korea [meetup]', '- 디자이너 & 개발자 협업', '- 실무진 이야기', '- 네트워킹.']
     }, {
       'date': '2018.02',
       'title': 'HTML, CSS, and NEXT?',
-      'contents': ['CodeSquad [seminar]', '- front-end 개발에 대한 전반적인 방향성과 현재 이슈를 포함한 세미나', '- HTML5, CSS3에 대한 심화 과정 스터디 진행']
+      'contents': ['CodeSquad [seminar]', '- front-end 개발에 대한 전반적인 방향성과 현재 이슈를 포함한 세미나', '- HTML5, CSS3에 대한 심화 과정 스터디 진행.']
     }, {
       'date': '2017.11 - 2017.12',
       'title': 'Type Script Basic',
-      'contents': ['TypeScript Korea [seminar]', '- 타입스크립트 코리아 유저그룹 기초 세미나 참여', '- 타입스크립트 기초 문법 학습']
+      'contents': ['TypeScript Korea [seminar]', '- 타입스크립트 코리아 유저그룹 기초 세미나 참여', '- 타입스크립트 기초 문법 학습.']
     }, {
       'date': '2017.07 - 2017.08',
       'title': 'Code-Night 2nd',
-      'contents': ['Opentutorials [education]', '- 웹 어플리케이션 개발 기초 및 이슈사항 등을 포함한 웹 개발의 전반적인 내용 스터디', '- Google, YouTube, TPay, Opentutorials 개발자가 함께 지원하여 진행', '-2기 졸업']
+      'contents': ['Opentutorials [education]', '- 웹 어플리케이션 개발 기초 및 이슈사항 등을 포함한 웹 개발의 전반적인 내용 스터디', '- Google, YouTube, TPay, Opentutorials 개발자가 함께 지원하여 진행', '-2기 졸업.']
     }, {
       'date': '2015.10 - 2017.03',
       'title': 'Ready for Developer',
-      'contents': ['IT Bank [education]', 'Java, JSP, Spring, Network, Linux, Window Server를 단과 교육 과정을 통해 수료하였으며, 마지막으로 4개월의 웹 개발 과정 취업반을 수료하였습니다.']
+      'contents': ['IT Bank [education]', '- Java, JSP, Spring, Network, Linux, Window Server를 단과 교육 과정을 통해 수료하였으며, 마지막으로 4개월의 웹 개발 과정 취업반 수료.']
     }],
 
     '학력 사항': [
@@ -9378,48 +9377,48 @@ module.exports = {
     'Coreriver (코아리버)': {
       'date': '2017.05 - 2018.06',
       'info': '코아리버는 IoT, 영상처리, 쇼핑몰 관련 웹/앱 개발의 선도적인 기업입니다. 안드로이드, iOS, 하이브리드 웹/앱 개발 및 디자인까지 토탈 솔루션을 제공합니다.',
-      'service': ['Web - 회사 소개 사이트<br /> - <a href="http://www.coreriver.com">http://www.coreriver.com</a> <br /><br />', 'Portfolio<br /> - <a href="http://www.coreriver.com/technology.asp#portfolio">http://www.coreriver.com/technology.asp#portfolio</a> <br /><br />', 'Project<br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj04_obelab.html">03 _ OBELAB ( 생체신호 관리 프로그램 )<a/><br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj03_bmap.html">02 _ 바나나맵 ( 실시간 상점 정보 어플리케이션 )<a/><br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj02_vpet.html">01 _ 바닐라펫 ( 반려동물 분양 정보 어플리케이션 )<a/>'],
+      'service': ['Web - 회사 소개 사이트<br /> - <a href="http://www.coreriver.com">http://www.coreriver.com</a> <br /><br />', 'Portfolio<br /> - <a href="http://www.coreriver.com/technology.asp#portfolio">http://www.coreriver.com/technology.asp#portfolio</a> <br /><br />', 'Project<br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj04_obelab.html">03. OBELAB ( 생체신호 관리 프로그램 )<a/><br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj03_bmap.html">02. 바나나맵 ( 실시간 상점 정보 어플리케이션 )<a/><br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj02_vpet.html">01. 바닐라펫 ( 반려동물 분양 정보 어플리케이션 )<a/>'],
       'project': {
         'project': [{
           'date': '2018.01 - 2018.04',
           'title': 'OBELAB (Nirsit)',
           'contents': ['생체신호 관리 프로그램에대한 관리자 웹 페이지 개발', `
               <br />
-              '[프로젝트 작업]' : 전체적인 설계 / DB설계 / 웹 Api 및 App 연동 Api 제작 / Api 문서화 / Bootstrap 적용 / DatePicker / Firebase push / Google Push / swiper / jQuery(range, eventDrag, touchSlide) Api Custom<br /><br />
-              '[메인 작업]' : 전체적인 View 구성 및 제작 / UI퍼블리싱 / 기본 sql 구성 / 응용 sql 구성 / 상단메뉴기능 통합 모듈 제작 / path 모듈 제작 / dateTime 모듈 제작 / 전체 테이블 이벤트 통합 모듈 제작 / restful 구조 작성 / socket push 알림 기능 제작 / Spring-Security 보안처리 / 메일전송 / 비밀번호 암호화 / 필터처리 / 페이징처리 / 프로젝트 버전관리 / 다국어 기능처리 / 프로젝트 정리
-              `, '- 관리자 웹 페이지 개발', '- 기여도 : 90%', '- stack : JAVA, JSP, Spring 4.x, MyBatis, MySQL, Apache Tomcat 8.0, AWS, Javascript, jQuery, HTML5, CSS3, Bootstrap, Ajax, Spring-Security, Spring-Messaging, Jackson-databind, Commons-dbcp']
+              - [프로젝트 작업] : 전체적인 설계 / DB설계 / 웹 Api 및 App 연동 Api 제작 / Api 문서화 / Bootstrap 적용 / DatePicker / Firebase push / Google Push / swiper / jQuery(range, eventDrag, touchSlide) Api Custom<br /><br />
+              - [메인 작업] : 전체적인 View 구성 및 제작 / UI퍼블리싱 / 기본 sql 구성 / 응용 sql 구성 / 상단메뉴기능 통합 모듈 제작 / path 모듈 제작 / dateTime 모듈 제작 / 전체 테이블 이벤트 통합 모듈 제작 / restful 구조 작성 / socket push 알림 기능 제작 / Spring-Security 보안처리 / 메일전송 / 비밀번호 암호화 / 필터처리 / 페이징처리 / 프로젝트 버전관리 / 다국어 기능처리 / 프로젝트 정리<br /><br />
+              `, '- 관리자 웹 페이지 개발', '- 기여도 : 90%', '- stack : JAVA, JSP, Spring 4.x, MyBatis, MySQL, Apache Tomcat 8.0, AWS, Javascript, jQuery, HTML5, CSS3, Bootstrap, Ajax, Spring-Security, Spring-Messaging, Jackson-databind, Commons-dbcp<br />']
         }, {
           'date': '2017.08 - 2018.01',
           'title': '바나나맵',
           'contents': ['전세계 모든 상점의 실시간 영업정보를 제공받고 확인할 수 있는 앱', `
               <br />
-              '[프로젝트 작업]' : 전체의 지도(교통, 길찾기) / 메일전송 모듈제작 / 문자 전송모듈 제작 / GoogleMap ( DistanceMatrix, geocoding, marker, cluster ) / bootstrap / swiper / jQuery(range, eventDrag, touchSlider) / excel up-down / TMAP / MAPSME / SYGIC 등 api를 custom<br />
-              '[메인 작업]' : (Tmap, Google, MAPSME, SCGIC)의 navigation 연동 / 길 찾기 분기처리 / 거리-시간 계산 처리 / 일정 계산 / 관리자 Excel(up-down) 구현 / GPS(내 위치 기반 정보) 확인 / 데이터 연동.
-              `, '- Cordova를 이용한 Hybrid App개발', '- 관리자 웹 페이지 개발', '- 기여도 : 50%', '- stack : PHP, Codeigniter, _Template, HTML5, CSS3, JavaScript, jQuery, Ajax, Apache HTTP server v2.4, MySQL, BootStrap, GoogleMap, Tmap, MAPSME, SYGIC']
+              - [프로젝트 작업] : 전체의 지도(교통, 길찾기) / 메일전송 모듈제작 / 문자 전송모듈 제작 / GoogleMap ( DistanceMatrix, geocoding, marker, cluster ) / bootstrap / swiper / jQuery(range, eventDrag, touchSlider) / excel up-down / TMAP / MAPSME / SYGIC 등 api를 custom<br /><br />
+              - [메인 작업] : (Tmap, Google, MAPSME, SCGIC)의 navigation 연동 / 길 찾기 분기처리 / 거리-시간 계산 처리 / 일정 계산 / 관리자 Excel(up-down) 구현 / GPS(내 위치 기반 정보) 확인 / 데이터 연동.<br /><br />
+              `, '- Cordova를 이용한 Hybrid App개발', '- 관리자 웹 페이지 개발', '- 기여도 : 50%', '- stack : PHP, Codeigniter, _Template, HTML5, CSS3, JavaScript, jQuery, Ajax, Apache HTTP server v2.4, MySQL, BootStrap, GoogleMap, Tmap, MAPSME, SYGIC<br />']
         }, {
           'date': '2017.05 - 2017.07',
           'title': '바닐라펫',
           'contents': ['반려동물 분양을 보다 편리하게 제공할 수 있는 커뮤니티 앱 (Hybrid App)', `
               <br />
-              '[프로젝트 작업]' : 전체적인 설계 / Framework설계 / DB설계 / Hybrid App Design / Use Api[ GoogleMap, Cropie, Material Design, Bootstrap, swiper, jQuery(range, eventDrag, touchSlider)<br />
-              '[메인 작업]' : 전체적인 View 구성 및 제작 / 기본 CRUD를 구성 / Image(crop, slide, sunject edit, delete ) / login / logout / 메일전송 / 비밀번호 암호화 / 회원가입 / SNS로그인 / 필터처리 / 검색슬라이드 / 즐겨찾기 목록화 / 최근본 게시글 / 게시글 신고 / 좋아요기능 / 즐겨찾기 기능 / 최근본 목록 기능 / 문자전송 / 전화걸기 / 내분양글목록 / 분양글등록 / 수정 / 내정보 수정 / push알림.
-              `, '- Cordova를 이용한 Hybrid App개발', '- 기여도 : 100%, 단독진행', '- stack : PHP, Codeigniter, _Template, HTML5, CSS3, JavaScript, jQuery, Ajax, Apache HTTP server v2.4, MySQL, AWS, BootStrap, GoogleMap, ...']
+              - [프로젝트 작업] : 전체적인 설계 / Framework설계 / DB설계 / Hybrid App Design / Use Api[ GoogleMap, Cropie, Material Design, Bootstrap, swiper, jQuery(range, eventDrag, touchSlider)<br /><br />
+              - [메인 작업] : 전체적인 View 구성 및 제작 / 기본 CRUD를 구성 / Image(crop, slide, subject edit, delete ) / login / logout / 메일전송 / 비밀번호 암호화 / 회원가입 / SNS로그인 / 필터처리 / 검색슬라이드 / 즐겨찾기 목록화 / 최근본 게시글 / 게시글 신고 / 좋아요기능 / 즐겨찾기 기능 / 최근본 목록 기능 / 문자전송 / 전화걸기 / 내분양글목록 / 분양글등록 / 수정 / 내정보 수정 / push알림.<br /><br />
+              `, '- Cordova를 이용한 Hybrid App개발', '- 기여도 : 100%, 단독진행', '- stack : PHP, Codeigniter, _Template, HTML5, CSS3, JavaScript, jQuery, Ajax, Apache HTTP server v2.4, MySQL, AWS, BootStrap, GoogleMap, ...<br />']
         }]
       }
     },
     'IT Bank (아이티뱅크)': {
       'date': '2015.09 - 2016.05 / 2016.09 - 2017.04',
       'info': '개발자 준비 교육 아카데미.',
-      'service': ['Project<br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj01_dasam.html">01 _ DASAM ( 소셜커머스 )<a/>'],
+      'service': ['Project<br /> - <a href="http://jeromebaek-portfolio-ko.ml/portfolio/proj01_dasam.html">01. DASAM ( 소셜커머스 )<a/>'],
       'project': {
         'project': [{
           'date': '2017.03 - 2017.03',
           'title': 'DASAM(소셜커머스)',
           'contents': ['티몬을 모티브로한 소셜커머스 웹 서비스 제작', `
               <br />
-              '[프로젝트 작업]' : 전체적인 제안, 기획, 설계 / Framework설계 / DB설계 / 프로젝트 전체 통합 / 팀 일정관리<br />
-              '[메인 작업]' : 스크롤페이징 / 롤링카운터 / 상단 메뉴 제작 / 상품 메뉴 제작 / 인기상품 top10 / Other's deal 관리 / 기업회원 개인페이지 / 관리자 페이지 / 일반회원 접속여부 확인 / 등급관리 기능 / 테이블 개수 제한 더보기-접어두기 페이징(스크롤) / 일반회원 통계 관리 페이지 구현 / 기업회원 통계 관리 페이지 구현 / 인기기업, 판매 딜 많은 기업, 위험 기업 순위 적용 / 등급에 따른 할인 및 매출 계산 구현 / 구매고객 리스트 / 딜 수량 수정기능 / 딜 삭제 기능 / 기업정보 수정 기능 / 기업정보 삭제 기능 / 매출 등급 / 기업 등급상태 기능 제작.
-              `, '- Spring 첫 프로젝트 제작', '- 기여도 : 70%', '- stack : JAVA, JSP, SPring 3.x, Ajax, jQuery, MVC2, Maven, MyBatis, Oracle 11g, Apache Tomcat 8.0, individual Module']
+              <b>- [프로젝트 작업]</b> : 전체적인 제안, 기획, 설계 / Framework설계 / DB설계 / 프로젝트 전체 통합 / 팀 일정관리<br />
+              <b>- [메인 작업]</b> : 스크롤페이징 / 롤링카운터 / 상단 메뉴 제작 / 상품 메뉴 제작 / 인기상품 top10 / Other's deal 관리 / 기업회원 개인페이지 / 관리자 페이지 / 일반회원 접속여부 확인 / 등급관리 기능 / 테이블 개수 제한 더보기-접어두기 페이징(스크롤) / 일반회원 통계 관리 페이지 구현 / 기업회원 통계 관리 페이지 구현 / 인기기업, 판매 딜 많은 기업, 위험 기업 순위 적용 / 등급에 따른 할인 및 매출 계산 구현 / 구매고객 리스트 / 딜 수량 수정기능 / 딜 삭제 기능 / 기업정보 수정 기능 / 기업정보 삭제 기능 / 매출 등급 / 기업 등급상태 기능 제작.
+              `, '- Spring 첫 프로젝트 제작', '- 기여도 : 70%', '- stack : JAVA, JSP, SPring 3.x, Ajax, jQuery, MVC2, Maven, MyBatis, Oracle 11g, Apache Tomcat 8.0, individual Module<br />']
         }]
       }
     }
