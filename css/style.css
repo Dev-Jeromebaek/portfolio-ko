@@ -334,9 +334,9 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Poppins', helvetica, 'Source Sans Pro', sans-serif, 'Nanum Gothic', sans-serif;
+  font-family: 'Poppins', helvetica, 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -344,7 +344,7 @@ nav ul li a {
   max-width: 100%;
   margin-bottom: 0;
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /*-----------------------------------------------------------------------------------*/
