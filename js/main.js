@@ -151,6 +151,22 @@ $(document).ready(function() {
   };
 
   // ========================================================================= //
+  //  pieChart
+  // ========================================================================= //
+
+  var pieChart = function() {
+    $('.chart').easyPieChart({
+      scaleColor: false,
+      lineWidth: 4,
+      lineCap: 'butt',
+      barColor: '#FF9000',
+      trackColor: "#f5f5f5",
+      size: 160,
+      animate: 1000
+    });
+  };
+
+  // ========================================================================= //
   //  swipe next btn 5초마다 클릭.
   // ========================================================================= //
 
@@ -205,6 +221,7 @@ $(document).ready(function() {
 
   // Call the functions
   magnifPopup();
+  pieChart();
   loaderPage();
   locale_check();
   moreResume();
