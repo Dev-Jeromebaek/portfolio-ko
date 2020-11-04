@@ -1,5 +1,5 @@
 /*global $, jQuery, alert*/
-$(document).ready(function() {
+$(document).ready(function () {
   "use strict";
 
   // ========================================================================= //
@@ -8,11 +8,11 @@ $(document).ready(function() {
 
   $(document).on("scroll", onScroll);
 
-  $('a[href^="#"]').on("click", function(e) {
+  $('a[href^="#"]').on("click", function (e) {
     e.preventDefault();
     $(document).off("scroll");
 
-    $("a").each(function() {
+    $("a").each(function () {
       $(this).removeClass("active");
       if ($(window).width() < 768) {
         $(".nav-menu").slideUp();
@@ -29,11 +29,11 @@ $(document).ready(function() {
       .stop()
       .animate(
         {
-          scrollTop: target.offset().top - 80
+          scrollTop: target.offset().top - 80,
         },
         500,
         "swing",
-        function() {
+        function () {
           window.location.hash = target.selector;
           $(document).on("scroll", onScroll);
         }
@@ -43,7 +43,7 @@ $(document).ready(function() {
   function onScroll(event) {
     if ($(".home").length) {
       var scrollPos = $(document).scrollTop();
-      $("nav ul li a").each(function() {
+      $("nav ul li a").each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
       });
@@ -54,7 +54,7 @@ $(document).ready(function() {
   //  //NAVBAR SHOW - HIDE
   // ========================================================================= //
 
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll > 200) {
       $("#main-nav, #main-nav-subpage").slideDown(700);
@@ -70,7 +70,7 @@ $(document).ready(function() {
   //  // RESPONSIVE MENU
   // ========================================================================= //
 
-  $(".responsive").on("click", function(e) {
+  $(".responsive").on("click", function (e) {
     $(".nav-menu").slideToggle();
   });
 
@@ -80,11 +80,11 @@ $(document).ready(function() {
 
   var typed = $(".typed");
 
-  $(function() {
+  $(function () {
     typed.typed({
       strings: ["Hi, I'm Jerome Baek.", "I'm Web Developer."],
       typeSpeed: 100,
-      loop: true
+      loop: true,
     });
   });
 
@@ -99,7 +99,7 @@ $(document).ready(function() {
     dots: true,
     nav: false,
     responsiveClass: true,
-    responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
+    responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } },
   });
 
   // ========================================================================= //
@@ -108,10 +108,10 @@ $(document).ready(function() {
 
   var portfolioIsotope = $(".portfolio-container").isotope({
     itemSelector: ".portfolio-thumbnail",
-    layoutMode: "fitRows"
+    layoutMode: "fitRows",
   });
 
-  $("#portfolio-flters li").on("click", function() {
+  $("#portfolio-flters li").on("click", function () {
     $("#portfolio-flters li").removeClass("filter-active");
     $(this).addClass("filter-active");
 
@@ -122,13 +122,13 @@ $(document).ready(function() {
   //  magnificPopup
   // ========================================================================= //
 
-  var magnifPopup = function() {
+  var magnifPopup = function () {
     $(".popup-img").magnificPopup({
       type: "image",
       removalDelay: 300,
       mainClass: "mfp-with-zoom",
       gallery: {
-        enabled: true
+        enabled: true,
       },
       zoom: {
         enabled: true, // By default it's false, so don't forget to enable it
@@ -139,14 +139,14 @@ $(document).ready(function() {
         // The "opener" function should return the element from which popup will be zoomed in
         // and to which popup will be scaled down
         // By defailt it looks for an image tag:
-        opener: function(openerElement) {
+        opener: function (openerElement) {
           // openerElement is the element on which popup was initialized, in this case its <a> tag
           // you don't need to add "opener" option if this code matches your needs, it's defailt one.
           return openerElement.is("img")
             ? openerElement
             : openerElement.find("img");
-        }
-      }
+        },
+      },
     });
   };
 
@@ -154,15 +154,15 @@ $(document).ready(function() {
   //  pieChart
   // ========================================================================= //
 
-  var pieChart = function() {
-    $('.chart').easyPieChart({
+  var pieChart = function () {
+    $(".chart").easyPieChart({
       scaleColor: false,
       lineWidth: 4,
-      lineCap: 'butt',
-      barColor: '#FF9000',
+      lineCap: "butt",
+      barColor: "#FF9000",
       trackColor: "#f5f5f5",
       size: 160,
-      animate: 1000
+      animate: 1000,
     });
   };
 
@@ -170,7 +170,7 @@ $(document).ready(function() {
   //  swipe next btn 5초마다 클릭.
   // ========================================================================= //
 
-  var circle_chart_event = function() {
+  var circle_chart_event = function () {
     var c = document.getElementById("cir-next-btn");
     c.click();
   };
@@ -179,7 +179,7 @@ $(document).ready(function() {
   //  로딩바
   // ========================================================================= //
 
-  var loaderPage = function() {
+  var loaderPage = function () {
     $(".page_loader").fadeOut("slow");
   };
 
@@ -187,8 +187,8 @@ $(document).ready(function() {
   //  언어설정
   // ========================================================================= //
 
-  var locale_check = function() {
-    $("#locale_check").on("change", function() {
+  var locale_check = function () {
+    $("#locale_check").on("change", function () {
       var language = $("#locale_check").val();
       console.log(language);
       if (language === "ko") {
@@ -196,7 +196,7 @@ $(document).ready(function() {
           .children()[0]
           .getAttribute("selected");
         if (ko_sel_check === null) {
-          location.href = "http://jeromebaek-portfolio-ko.ml";
+          location.href = "https://dev-jeromebaek.github.io/portfolio-ko";
         }
       } else {
         var en_sel_check = $("#locale_check")
@@ -204,7 +204,7 @@ $(document).ready(function() {
           .getAttribute("selected");
         console.log(en_sel_check);
         if (en_sel_check === null) {
-          location.href = "http://jeromebaek-portfolio-en.ml";
+          location.href = "https://dev-jeromebaek.github.io/portfolio-en";
         }
       }
     });
@@ -213,8 +213,8 @@ $(document).ready(function() {
   // ========================================================================= //
   //  이력서 더보기 버튼 이벤트
   // ========================================================================= //
-  var moreResume = function() {
-    $("#moreResume").on("click", function() {
+  var moreResume = function () {
+    $("#moreResume").on("click", function () {
       location.href = "portfolio/index.html";
     });
   };
@@ -225,7 +225,7 @@ $(document).ready(function() {
   loaderPage();
   locale_check();
   moreResume();
-  setInterval(function() {
+  setInterval(function () {
     document.getElementById("cir-next-btn").click();
   }, 4000);
 });
